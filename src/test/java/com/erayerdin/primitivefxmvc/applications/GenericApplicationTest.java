@@ -1,4 +1,5 @@
 package com.erayerdin.primitivefxmvc.applications;
+//my first change
 
 import com.erayerdin.primitivefxmvc.applications.exception.OperationSystemNotSupportedException;
 import org.junit.Assert;
@@ -14,6 +15,7 @@ public class GenericApplicationTest {
         public AnyApplication() {
             AppMeta.ORGANIZATION_NAME_CR = "erayerdin";
             AppMeta.PROJECT_NAME_CR = "primitivefxmvc";
+
         }
     }
     private AnyApplication app;
@@ -22,6 +24,7 @@ public class GenericApplicationTest {
     public void setUp() throws Exception {
         this.app = new AnyApplication();
     }
+
 
     @Test
     public void generateVersionString() {
